@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>LED Control</title>
+<style>html { background-color: white; color: black; display: inline-block; font-family: "Liberation Mono", monospace; font-size: 20px; text-align: center; position: absolute; left: 0px; }
+body { color: black; }
+h1 { color: darkgray; }
+h2 { color: gray; }
+h3 { color: lightgray; }
+.button { background-color: white; color: white; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; margin: 5px 5px 5px 5px; padding: 3px 3px 3px 3px; }
+.button-on { background-color: green; }
+.button-on:active { background-color: darkgreen; }
+.button-off { background-color: blue; }
+.button-off:active { background-color: darkblue; }
+p { font-size: 15px; }
+</style>
+</head>
+<body>
+<p>LED1 Status: ON</p><a class="button button-off" href="/led1off"><button>OFF</button></a>
+<p>LED1 Status: OFF</p><a class="button button-on" href="/led1on"><button>ON</button></a>
+</body>
+</html>
